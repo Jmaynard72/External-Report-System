@@ -1,0 +1,9 @@
+[project]
+name = "external_report_system"
+version = "1.0.0"
+description = "Package that reads an XML file created by Millennium, reads parameters from file and executes python script."
+
+dependencies = []
+
+
+
