@@ -1,0 +1,3 @@
+2026-02-09 14:21:00,702 | INFO | Job started
+2026-02-09 14:21:00,702 | INFO | Parameters: {'company_number': '7220', 'process_start': '2026013001', 'process_end': '2026013001', 'custom1': 'Test1', 'custom2': 'Test2', 'custom3': 'Test3', 'custom4': 'Test4', 'custom5': 'Test5'}
+2026-02-09 14:21:04,099 | INFO | Job completed successfully

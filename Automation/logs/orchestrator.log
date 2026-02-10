@@ -1,0 +1,12 @@
+2026-02-09 14:05:11,500 | INFO | Orchestrator started
+2026-02-09 14:05:11,503 | INFO | Processing 7220-2026013001.xml
+2026-02-09 14:05:11,510 | INFO | Executing: C:\Users\jmaynard\AppData\Local\Programs\Python\Python312\python.exe \\PSI-SQL\Payroll\James\TEST\job_template.py 7220 2026013001 2026013001 Test1 Test2 Test3 Test4 Test5
+2026-02-09 14:05:16,011 | INFO | 
+2026-02-09 14:05:16,011 | INFO | 7220-2026013001.xml processed successfully
+2026-02-09 14:05:16,012 | INFO | Orchestrator finished
+2026-02-09 14:21:00,468 | INFO | Orchestrator started
+2026-02-09 14:21:00,470 | INFO | Processing 7220-2026013001.xml
+2026-02-09 14:21:00,517 | INFO | Executing: C:\Users\jmaynard\AppData\Local\Programs\Python\Python312\python.exe C:\Users\jmaynard\OneDrive - PAYROLL SOLUTIONS\Projects\External Report System\7220\7220_job_template.py 7220 2026013001 2026013001 Test1 Test2 Test3 Test4 Test5
+2026-02-09 14:21:04,200 | INFO | 
+2026-02-09 14:21:04,200 | INFO | 7220-2026013001.xml processed successfully
+2026-02-09 14:21:04,200 | INFO | Orchestrator finished
