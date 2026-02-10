@@ -1,8 +1,12 @@
 import sys
 import logging
 from pathlib import Path
-import tkinter as tk
-from tkinter import messagebox
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(PROJECT_ROOT))
+
+import controls.psi_mail as my_mail
+
 
 """ Configuration """
 SCRIPT_NAME = Path(__file__).stem
@@ -69,15 +73,8 @@ def run_job(params: dict):
     custom5 = params["custom5"]
 
     # TODO: Implement job logic here
-    # Create a hidden tkinter window to act as the parent
-    root = tk.Tk()
-    root.withdraw() # Hides the main window
-
-    # Display a message box (other types available: showwarning, showerror, askquestion, etc.)
-    messagebox.showinfo(title="My Message Box", message=f"Company number: {company_number} Process start: {process_start} Process end: {process_end}")
-
-    # Optional: destroy the hidden root window after the message box is closed
-    root.destroy()
+    my_mail.send_message("jmaynard@payrollsolutions.cc","Test message")
+   
 
     logging.info("Job completed successfully")
 
